@@ -12,7 +12,6 @@ conf t
  login
  logging synchronous 
  exit
- service pass
  service password-encryption 
  banner motd $ This is a secure system. Authorized access only. $
  end
